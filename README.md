@@ -20,8 +20,8 @@ The NLTK library requires a couple of downloads through its interface (as oppose
 $ python get_nltk_packages.py
 ```
 
-### Testing
-In order to test, you will go in the the python shell. I'll provide a few start lines to show you the output from the data provided. You can look at the docs below to get an idea of other functionality.
+### Example
+In order to test, you will go in the the python shell. I'll provide a few start lines to show you the output from the data provided. You can look at the docs below to get an idea of other functionality. These commands should be from within the project directory. 
 
 ```{python}
 $ python
