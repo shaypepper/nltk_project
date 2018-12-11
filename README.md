@@ -42,10 +42,12 @@ $ python
 ### ``class TextProcessor``
 
 #### ``tp.get_token_set(doc)``
-    Takes doc in the form of a string and returns list of unique tokens.
+
+Takes doc in the form of a string and returns list of unique tokens.
 
 #### ``tp.preprocess_string(doc)``
-    Takes doc in the form of a string, preprocesses data by removing tokens that aren't words and stop words. It also changes all tokens to lowercase. 
+
+Takes doc in the form of a string, preprocesses data by removing tokens that aren't words and stop words. It also changes all tokens to lowercase. 
 
 ### ``class Corpus(docs=[], paths=None, language='english', exclude=[])``
 This is our main class that allows you to provide docs or paths to be processed. 
