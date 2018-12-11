@@ -67,3 +67,16 @@ This method takes a single word and gets the word/sentence/documents data like m
 
 #### ``corpus.word_list_data(word_list)``
 Just like word_data, except it takes and returns a list of word_data. 
+
+
+## Other tidbits
+ 
+* I have never used Conda not have I done anything with natural language processing. I did a crash course in one on Friday and the other on Saturday. 
+* I tried to make the output as compatible with JSON as possible since this would most likely be used in a web application.
+
+
+### Future improvements
+* Add lemmatization 
+* Add a tfidf algorithm to determine words to exclude. I added the exclusion parameter for this future improvement.
+* Ability to write tokens, and mapped sentences into a flat file for later use or a blob in a database for later use. 
+
