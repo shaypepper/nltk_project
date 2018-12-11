@@ -16,7 +16,7 @@ Make sure you have the most recent version of Conda. (Even if you just installed
 
 ```{python}
 $ conda update conda
-$ conda env create --name shay_eigen --file text_process.yaml
+$ conda env create --name shay_eigen --file text_process.yml
 $ source activate shay_eigen
 ```
 
