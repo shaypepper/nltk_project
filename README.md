@@ -2,6 +2,12 @@
 
 ## Getting started
 
+### Downloading project
+If you don't have the zip file for this project, you can clone it from github if you have it. 
+```{bash}
+$ git clone https://github.com/shaypepper/shay_eigen_project.git
+```
+
 ### Conda 
 
 If you don't have conda on your machine, you can download Miniconda for your machine [here](https://conda.io/miniconda.html).
