@@ -33,7 +33,7 @@ In order to test, you will go in the the python shell. I'll provide a few start 
 $ python
 >>> from text_process import *
 >>> c = Corpus(paths=TEST_PATHS, exclude=["and","i"])
->>> mcw = c.most_common_words(3, print = True)
+>>> mcw = c.most_common_words(3, print_result = True)
 ```
 
 
